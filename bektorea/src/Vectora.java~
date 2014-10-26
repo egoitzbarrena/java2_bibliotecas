@@ -1,0 +1,34 @@
+import java.util.Vector;
+
+public class Vector {
+
+public static void main (String args[]){
+
+
+	Vector v=new Vector();
+		v.addElement(1);
+System.out.println("nº de elementos "+v.size());
+//dimensión actual de un vector se llama a la función miembro capacity
+System.out.println("dimensión "+v.capacity());
+        	v.addElement(2);
+
+       		v.addElement(4);
+
+        	/*v.addElement("cinco");
+
+        	v.addElement("seis");
+
+        	v.addElement("siete");
+
+        	v.addElement("ocho");
+
+        	v.addElement("nueve");
+
+        	v.addElement("diez");
+
+        	v.addElement("once");
+
+        	v.addElement("doce");*/
+
+}
+}
